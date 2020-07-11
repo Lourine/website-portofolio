@@ -42,4 +42,20 @@ html ,body{
   height: auto;
   right: 0;
   top: 30%;
+  float: right;
+}
+.introduction h1{
+  font-size: 40px;
+  padding:right;
+  font-style: italic;
+}
+.introduction p{
+  font-size: 30px;
+  font-family: fantasy;
+  font-weight: bold;
+  background-color: burlywood;
+  width: 350px;
+}
+hr{
+  width: 350px;
 }
