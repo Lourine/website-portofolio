@@ -13,26 +13,6 @@ html ,body{
   background-position: center;
 
 }
-.introduction{
-  color: white;
-  
-
-}
-.introduction h1{
-  text-align: center;
-  
-}
-.introduction img{
-  float: left;
-  width: 350px;
-  height: 250px;
-}
-.introduction p{
-  font-size: 40px;
-  font-weight: bold;
-  
-
-}
 .nav{
   width: 350px;
   height: auto;
@@ -55,11 +35,11 @@ html ,body{
   line height: 90 px;
   text align : center;
 }
-header{
-  color: white;
-  text-align: center;
-  font-size: 20px;
-  font-weight: bold;
-  font-style: italic;
-  font-family: fantasy;
+.content{
+  position: absolute;
+  width: 950px;
+  min-height: ;
+  height: auto;
+  right: 0;
+  top: 30%;
 }
