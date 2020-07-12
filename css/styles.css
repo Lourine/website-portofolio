@@ -11,6 +11,8 @@ html ,body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  margin-right: auto;
+  margin-left: auto;
 
 }
 .nav{
@@ -139,6 +141,12 @@ hr{
 .submit:hover {
   background-color: #45a049;
 }
+@media screen and (min-width:950px){
+.content{
+  top: 50%;
+}
+}
+
 
 
 
