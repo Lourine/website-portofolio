@@ -33,7 +33,7 @@ html ,body{
   float: right;
   background-color: black;
   color: purple;
-  display: inline;
+  display:inline-block;
   line height: 80px;
   text align : center;
 }
@@ -78,7 +78,7 @@ hr{
   border: 2px solid;
   padding:6px;
   margin: 20px;
-  overflow: visible;
+  overflow: scroll;
   text-emphasis: justify;
   color: white;
 
@@ -142,11 +142,22 @@ hr{
   background-color: #45a049;
 }
 @media screen and (min-width:950px){
-.content{
+.content, .contact{
   top: 50%;
+  
 }
 }
-
-
+@media screen and (min-width:950px){
+  .aboutme, .project , .contact{
+    overflow: scroll;
+    margin :auto;
+    border: 2px solid black;
+  }
+}
+@media screen and (min-width:950px){
+  .nav a{
+    margin:auto;
+  }
+}
 
 
